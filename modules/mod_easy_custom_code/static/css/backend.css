@@ -1,0 +1,20 @@
+/**
+ * @copyright	Copyright (C) 2009-2013 ThemePartner. All rights reserved.
+ * @license		GNU General Public License version 2 or later; see LICENSE.txt
+ */
+
+.panelform textarea, div.controls textarea {
+    width: 90%;
+    max-width: 750px;
+}
+
+#jform_params_tp_js_placement input {
+    clear: left;
+}
+
+.productImage {
+    height: 0 !important;
+    padding: 100px 0 0 !important;
+    background: url("../img/product_image.png") !important;
+    overflow: hidden;
+}

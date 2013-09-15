@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="module" version="1.7" client="site" method="upgrade">
+<name>Shared House17</name>
+<author>Minitek.gr</author>
+<creationDate>03/08/2011</creationDate>
+<copyright>Copyright (C) 2011. All rights reserved.</copyright>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<authorEmail>sachin.gore134@gmail.com</authorEmail>
+<authorUrl>www.minitek.gr</authorUrl>
+<version>1.7.1</version>	<description>
+		Affichage du calendrier de réservation de votre annonce
+		shared-house.com sur votre site Joomla
+	</description>
+	<files>
+		<filename>mod_shared_house17.xml</filename>
+		<filename module="mod_shared_house17">mod_shared_house17.php
+		</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<filename>tmpl/default.php</filename>
+		<filename>tmpl/index.html</filename>
+		<folder>fields</folder>
+	</files>
+	<languages>
+		<!-- Any language files included with the module -->
+		<language tag="en-GB">en-GB.mod_shared_house17.ini</language>
+		<language tag="fr-FR">fr-FR.mod_shared_house17.ini</language>
+		<language tag="de-DE">de-DE.mod_shared_house17.ini</language>
+		<language tag="nl-NL">nl-NL.mod_shared_house17.ini</language>		
+	</languages>
+	 
+			
+		 <config> 
+        <fields name="params"   addfieldpath="/modules/mod_shared_house17/fields"  >
+	<fieldset name="basic"  >
+	   
+                <field name="numero" type="text"  label="ADNUMBER" default="132" description="ADNUMBERDES" />
+		
+		 
+
+			
+			
+		 
+			     <field name="langue" type="list" default="" label="LANG" description="LANGDES" >
+			<option value="en">English</option>
+			<option value="fr">Français</option>
+			<option value="nl">Nederlands</option>
+			<option value="es">Español</option>
+			<option value="de">Deutsch</option>
+			<option value="fi">Suomi</option>
+
+		</field>
+		
+		 
+			  <field name="saisons" type="list" default="avec" label="SEASON" description="SEASONDES" >
+			<option value="avec">WITH</option>
+			<option value="sans">WITHOUT</option>
+			</field>   
+	    
+              <field  name="articles" type="articles"  default="" label="ARTICLE" description="ARTICLEDESC" />
+	 
+             <field name="showlink" type="radio" default="0" label="SHOWLINK" description="SHOWLINKDESC">
+	       <option value="0">NOL</option>
+                    <option value="1">YESL</option>
+	     </field>
+			
+		   </fieldset>
+        </fields>
+    </config>
+</extension>

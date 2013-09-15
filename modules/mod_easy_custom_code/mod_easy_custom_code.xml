@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+	<name>Easy Custom Code</name>
+	<author>ThemePartner</author>
+	<creationDate>January 2013</creationDate>
+	<copyright>Copyright (C) 2009 - 2013 ThemePartner. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>info@themepartner.com</authorEmail>
+	<authorUrl>www.themepartner.com</authorUrl>
+	<version>1.0</version>
+	<description>
+        <![CDATA[
+            <span class="productImage" style="float:left;display:block;width:100px;height:auto;background:#333;color:#21bfc0;padding:10px 0;font-size:20px;text-align:center;font-weight:bold;line-height:25px;margin:0 15px 15px 0;">Easy <span style="color:#fff;">Custom</span> Code</span>
+            <h2 style="text-align:left;">Easy Custom Code</h2>
+            <p style="text-align:left;">Easily add custom HTML, CSS and JS to your Joomla! website.</p>
+            <h3 style="text-align:left;clear:both;">Need help?</h3>
+            <p style="text-align:left;">Check our <a href="http://www.themepartner.com/knowledgebase/tag-item/7/">documentation</a> page.</p>
+            <h3 style="text-align:left;">Like the product?</h3>
+            <p style="text-align:left;">Please share this extension with your friends, <a href="https://twitter.com/Theme_Partner">follow us on Twitter</a> or <a href="http://www.facebook.com/ThemePartner">like us on Facebook</a>.</p>
+        ]]>
+    </description>
+	<files>
+		<filename module="mod_easy_custom_code">mod_easy_custom_code.php</filename>
+		<folder>elements</folder>
+		<folder>helper</folder>
+		<folder>static</folder>
+		<folder>tmpl</folder>
+		<filename>index.html</filename>
+        <filename>mod_easy_custom_code.xml</filename>
+	</files>
+	<languages folder="lang">
+		<language tag="en-GB">en-GB.mod_easy_custom_code.ini</language>
+		<language tag="nl-NL">nl-NL.mod_easy_custom_code.ini</language>
+	</languages>
+	<config>
+        <fields name="params" addfieldpath="/modules/mod_easy_custom_code/elements">
+			<fieldset name="basic">
+                <field type="bootstrap" />
+                <field name="tp_html"
+                       type="textarea"
+                       label="MOD_ECC_HTML_LABEL" 
+                       description="MOD_ECC_HTML_DESCRIPTION"
+                       filter="raw" 
+                       rows="12"
+                       cols="45" />
+                <field name="tp_css" 
+                       type="textarea" 
+                       label="MOD_ECC_CSS_LABEL" 
+                       description="MOD_ECC_CSS_DESCRIPTION"
+                       filter="raw"
+                       rows="12"
+                       cols="45" />
+                <field name="tp_css_file" 
+                       type="radio"
+                       label="MOD_ECC_CSS_FILE_LABEL" 
+                       description="MOD_ECC_CSS_FILE_DESCRIPTION">
+                           <option value="0">JNO</option>
+                           <option value="1">JYES</option>
+                </field>
+                <field name="tp_js" 
+                       type="textarea" 
+                       label="MOD_ECC_JS_LABEL" 
+                       description="MOD_ECC_JS_DESCRIPTION"
+                       filter="raw"
+                       rows="12"
+                       cols="45" />
+                <field name="tp_js_file"
+                       type="radio"
+                       label="MOD_ECC_JS_FILE_LABEL"
+                       description="MOD_ECC_JS_FILE_DESCRIPTION">
+                           <option value="0">JNO</option>
+                           <option value="1">JYES</option>
+                </field>
+                <field name="tp_js_placement" 
+                       type="radio"
+                       label="MOD_ECC_JS_PLACEMENT_LABEL" 
+                       description="MOD_ECC_JS_PLACEMENT_DESCRIPTION">
+                           <option value="0">MOD_ECC_HEAD</option>
+                           <option value="1">MOD_ECC_ABOVE</option>
+                           <option value="2">MOD_ECC_BELOW</option>
+                           <option value="3">MOD_ECC_DEFER</option>
+                </field>
+			</fieldset>
+            <fieldset name="advanced">
+
+                <field
+                        name="layout"
+                        type="modulelayout"
+                        label="JFIELD_ALT_LAYOUT_LABEL"
+                        description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+
+				<field name="moduleclass_sfx"
+                       type="text"
+                       label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+                       description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+
+                <field
+                        name="cache"
+                        type="list"
+                        default="1"
+                        label="COM_MODULES_FIELD_CACHING_LABEL"
+                        description="COM_MODULES_FIELD_CACHING_DESC">
+                    <option
+                            value="1">JGLOBAL_USE_GLOBAL</option>
+                    <option
+                            value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+                </field>
+
+                <field
+                        name="cache_time"
+                        type="text"
+                        default="900"
+                        label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+                        description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+                <field
+                        name="cachemode"
+                        type="hidden"
+                        default="static">
+                    <option
+                            value="static"></option>
+                </field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

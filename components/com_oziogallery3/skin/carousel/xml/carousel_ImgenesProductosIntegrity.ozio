@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<slide_show>
+<options>
+<background>transparent</background>
+<interaction>
+<speed>50</speed>
+</interaction>
+<titles>
+<style>
+font-size: 14px; font-family: Verdana, _serif;
+</style>
+</titles>
+</options>
+<photo title="filtracion-tristar" href="javascript:aclick('ancor_filtracion-tristar_id')" target="_parent">http://localhost/Joomla_1.7.5_DAN/images/oziogallery3/filtracion-tristar.jpg</photo>
+<photo title="bolsa-tela-tristar" href="javascript:aclick('ancor_bolsa-tela-tristar_id')" target="_parent">http://localhost/Joomla_1.7.5_DAN/images/oziogallery3/bolsa-tela-tristar.jpg</photo>
+<photo title="aspiradora-tristar2" href="javascript:aclick('ancor_aspiradora-tristar2_id')" target="_parent">http://localhost/Joomla_1.7.5_DAN/images/oziogallery3/aspiradora-tristar2.jpg</photo>
+<photo title="aspiradora-tristar1" href="javascript:aclick('ancor_aspiradora-tristar1_id')" target="_parent">http://localhost/Joomla_1.7.5_DAN/images/oziogallery3/aspiradora-tristar1.jpg</photo>
+<photo title="aspiradora-tristar" href="javascript:aclick('ancor_aspiradora-tristar_id')" target="_parent">http://localhost/Joomla_1.7.5_DAN/images/oziogallery3/aspiradora-tristar.gif</photo>
+<photo title="anti-alergias-tristar" href="javascript:aclick('ancor_anti-alergias-tristar_id')" target="_parent">http://localhost/Joomla_1.7.5_DAN/images/oziogallery3/anti-alergias-tristar.gif</photo>
+<photo title="anti-acaros-tristar" href="javascript:aclick('ancor_anti-acaros-tristar_id')" target="_parent">http://localhost/Joomla_1.7.5_DAN/images/oziogallery3/anti-acaros-tristar.gif</photo>
+<photo title="accesorios-tristar_2" href="javascript:aclick('ancor_accesorios-tristar_2_id')" target="_parent">http://localhost/Joomla_1.7.5_DAN/images/oziogallery3/accesorios-tristar_2.jpg</photo>
+<photo title="accesorios-tristar" href="javascript:aclick('ancor_accesorios-tristar_id')" target="_parent">http://localhost/Joomla_1.7.5_DAN/images/oziogallery3/accesorios-tristar.jpg</photo>
+</slide_show>

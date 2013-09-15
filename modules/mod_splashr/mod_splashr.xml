@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD module 1.0//EN" "http://dev.joomla.org/xml/1.6/module-install.dtd">
+<install type="module" version="1.6">
+  <name>SplashR</name>
+  <creationDate>03-Mar-2010</creationDate>
+  <author>Michael Richey</author>
+  <authorEmail>michael@richeyweb.com</authorEmail>
+  <authorUrl>http://www.richeyweb.com</authorUrl>
+  <copyright>http://www.gnu.org/licenses/gpl-2.0.html</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <version>1.2</version>
+  <description>Splash page module with configurable frequency.</description>
+  <media folder="media" destination="mod_splashr">
+    <folder>assets</folder>
+  </media>
+  <files folder="site">
+    <filename module="mod_splashr">mod_splashr.php</filename>
+  </files>
+  <config>
+	  <fields name="params">
+	    <fieldset name="basic">
+	      <field label="Modal Type" name="modaltype" type="radio" default="0" description="Selecting fullscreen or squeezebox modal type.">
+		<option value="0">Fullscreen</option>
+		<option value="1">Squeezebox</option>
+	      </field>
+              <field label="Squeezebox Size" name="squeezeboxsize" type="text" default="600x600" description="WidthxHeight size of the Squeezebox Modal"/>
+	      <field label="Enable Frequency" name="enablefrequency" type="radio" default="0" description="Selecting No enables the splash page on every visit.">
+		<option value="0">No</option>
+		<option value="1">Yes</option>
+	      </field>
+	      <field label="Frequency Type" name="frequencytype" type="radio" default="0" description="Controls how often the splash page is displayed.">
+			<option value="0">Once per session</option>
+			<option value="1">Once per X days</option>
+	      </field>
+	      <field label="Frequency" name="frequency" type="text" default="7" description="Splash page is displayed once per this number of days. This setting is only valid if frequency is enabled above and type is 'Once per X days'."/>
+	      <field label="Splash URL" name="splashurl" type="text" default="http://www.richeyweb.com/development/joomla-modules/60-splashr?tmpl=component" description="The URL of your splash page.  Remember to add 'tmpl=component' if you wish to display a Joomla! content item without the template."/>
+	      <field label="Splash Title" name="splashtitle" type="text" default="Brought to you by RicheyWeb" description="The title displayed at the top of your splash page."/>
+	      <field label="Autohide Timer" name="autohide" type="text" default="15" description="Number of seconds to display the splash before continuing.  Set to 0 to force the user to press the button."/>
+	      <field label="Disable Skip" name="disableskip" type="radio" default="0" description="Disable (remove) the &quot;Skip to Content&quot; button.  Autohide Timer above must be set to a value greater than 0 to disable this button.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+	      </field>
+	    </fieldset>
+	  </fields>
+  </config>
+</install>

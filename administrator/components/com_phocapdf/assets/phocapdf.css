@@ -1,0 +1,246 @@
+/* Pane */
+#phocapdf-pane div.imglbl label {
+	min-width: 140px;
+}
+
+#phocapdf-pane label {
+	min-width: 200px;
+}
+
+#phocapdf-pane select{
+	margin:2px;
+}
+
+#phocapdf-pane #editor-xtd-buttons {
+	margin-left: 200px;
+	width: 250px;
+}
+
+div.icon-48-info {
+	background: url('images/icon-48-info.png') no-repeat left;
+}
+div.icon-48-phoca {
+	background: url('images/icon-48-phoca.png') no-repeat left;
+}
+
+div.icon-48-pdf {
+	background: url('images/icon-48-pdf.png') no-repeat left;
+}
+
+div.icon-48-apdf {
+	background: url('images/icon-48-apdf.png') no-repeat left;
+}
+
+div.icon-48-font {
+	background: url('images/icon-48-font.png') no-repeat left;
+}
+
+#phocapdf-apply {
+	margin:0;
+	margin-top:10px;
+	padding-left:50px;
+	padding-top:14px;
+	height:45px;
+	width:100px;
+	background: url('images/params-apply.png') 0 0 no-repeat;
+	position:relative;
+	float:right;
+}
+#phocapdf-apply a {
+	text-decoration:underline;
+	font-size:16px;
+	font-weight:bold;
+	color:#777;
+}
+
+
+#ppdf-update,
+#ppdf-updatep,
+#ppdf-updatef {
+	margin:0;
+	margin-top:10px;
+	padding-left:50px;
+	padding-top:14px;
+	height:45px;
+	width:270px;
+	background: url('images/update.png') 0 0 no-repeat;
+}
+
+#ppdf-update a,
+#ppdf-updatep a,
+#ppdf-updatef a {
+	text-decoration:underline;
+	font-size:16px;
+	font-weight:bold;
+	color:#fff;
+}
+
+#phocapdf {
+
+}
+
+#pg-update {
+	margin-top:25px;
+	margin-bottom: 15px;
+}
+#pg-install a,
+#pg-upgrade a,
+#pg-update a {
+	display: 			inline-block; 
+	padding:			15px 30px 15px 50px;
+	font-size: 			23px;   
+	text-decoration: 	none;
+	box-shadow: 		0 1px 2px rgba(0,0,0,0.6);
+	-moz-box-shadow: 	0 1px 2px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.6);
+	border-radius: 			5px;
+	-moz-border-radius: 	5px; 
+	-webkit-border-radius: 	5px;
+	border-bottom: 		1px solid rgba(0,0,0,0.25);
+	position: 			relative;
+	cursor: 			pointer;
+	text-shadow: 		0 -1px 1px rgba(0,0,0,0.25);
+	font-weight: 		bold;
+	color: 				#fff;
+	background-color: 	#6699cc;
+}
+#pg-install a:hover,
+#pg-upgrade a:hover,
+#pg-update a:hover {
+	background-color: 	#4080BF;
+}
+#pg-install a {
+	width: 6em;
+	background: 		url('images/btn.png') repeat-x, url('images/bg-install.png') 10px center no-repeat #6699cc;
+}
+#pg-install a:hover {
+	width: 6em;
+	background: 		url('images/btn.png') repeat-x, url('images/bg-install.png') 10px center no-repeat #4080BF;
+}
+#pg-update a {
+	display: block;
+	width: 10em;
+	background: 		url('images/btn.png') repeat-x, url('images/bg-upgrade.png') 10px center no-repeat #6699cc;
+}
+#pg-update a:hover {
+	display: block;
+	width: 10em;
+	background: 		url('images/btn.png') repeat-x, url('images/bg-upgrade.png') 10px center no-repeat #4080BF;
+}
+#pg-upgrade a {
+	width: 6em;
+	background: 		url('images/btn.png') repeat-x, url('images/bg-upgrade.png') 10px center no-repeat #6699cc;
+}
+#pg-upgrade a:hover {
+	width: 6em;
+	background: 		url('images/btn.png') repeat-x, url('images/bg-upgrade.png') 10px center no-repeat #4080BF;
+}
+
+.phoca-adminform {
+	background-color: #fff;
+	border: solid 1px #d5d5d5;
+	padding:10px;
+	color: #777;
+}
+.cpanel-right {
+	color: #777;
+}
+
+#phocapdf ul.phoca-plugins-menu {
+
+	list-style-type: none;
+	padding:		0px;
+	margin: 		0px;
+z-index:			1;	
+float:left;
+position:relative;
+}
+#phocapdf ul.phoca-plugins-menu li {
+	list-style-type: 	none;
+	padding:			5px 10px 5px 10px;
+	z-index:			1;
+	
+}
+
+#phocapdf ul.phoca-plugins-menu li.current {
+	
+	list-style-type: 	none;
+	padding:			10px;
+	background:			#fbfbfb;
+	border-left:		1px solid #cdcdcd;
+	border-top:			1px solid #cdcdcd;
+	border-bottom:		1px solid #cdcdcd;
+	z-index:			1;
+	margin-right:		-1px;
+	
+	
+}
+
+#phocapdf div.phoca-plugins {
+	padding:		10px 15px 10px 15px;
+	margin:			0px;
+	background:		#fbfbfb;
+	border:			1px solid #cdcdcd;
+	z-index:		0;
+	
+}
+
+#phocapdf div.phoca-plugins div.phoca-plugins-ie {
+	height:50px;
+	
+}
+
+#phocapdf .phocapdf-hr {
+	margin-top:5px;
+	margin-bottom: 10px;
+	border-bottom:1px dotted #dfdfdf;
+}
+
+
+/* tabs */
+form {
+  margin: 0;
+  padding: 0;
+}
+
+
+dl.tabs {
+	float: left;
+	margin: 10px 0 -1px 0;
+	z-index: 50;
+	
+}
+
+dl.tabs dt {
+	float: left;
+	padding: 4px 10px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	margin-left: 3px;
+	background: #f0f0f0;
+	color: #666;
+	
+}
+
+dl.tabs dt.open {
+	background: #ffffff;
+	border-bottom: 1px solid #ffffff;
+	z-index: 100;
+	color: #000;
+	
+}
+
+div.current {
+	clear: both;
+	border: 1px solid #ccc;
+	padding: 10px 10px;
+	background: #ffffff;
+	
+}
+
+div.current dd {
+	padding: 0;
+	margin: 0;
+}
+

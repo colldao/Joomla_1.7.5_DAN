@@ -1,0 +1,34 @@
+<install type="phocapdffonts" version="1.5" client="both" method="upgrade">
+    <name>Dejavu Sans</name>
+	<tag>dejavusans</tag>
+    <creationDate>01/01/2009</creationDate>
+    <author>Jan Pavelka</author>
+    <authorEmail>info[at]phoca[dot]cz</authorEmail>
+    <authorUrl>http://www.phoca.cz</authorUrl>
+    <copyright>(C) 2008 Jan Pavelka</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	
+	<authorFont>see dejavu_AUTHORS.txt file in this package</authorFont>
+    <copyrightFont>see dejavu_AUTHORS.txt file in this package</copyrightFont>
+    <licenseFont>see dejavu_LICENSE.txt file in this package</licenseFont>
+	
+    <description>Dejavu Sans Font for Phoca PDF component</description>
+
+    <files>
+          <filename>dejavu_AUTHORS.txt</filename>
+          <filename>dejavu_LICENSE.txt</filename>        
+		  <filename>dejavusans.php</filename>
+		  <filename>dejavusans.z</filename>
+		  <filename>dejavusans.ctg.z</filename>
+		  <filename>dejavusansb.php</filename>
+		  <filename>dejavusansb.z</filename>
+		  <filename>dejavusansb.ctg.z</filename>
+		  <filename>dejavusansbi.php</filename>
+		  <filename>dejavusansbi.z</filename>
+		  <filename>dejavusansbi.ctg.z</filename>
+		  <filename>dejavusansi.php</filename>
+		  <filename>dejavusansi.z</filename>
+		  <filename>dejavusansi.ctg.z</filename>
+		  <filename>index.html</filename>
+    </files>
+</install> 
