@@ -10,9 +10,8 @@ GitHub\
 \
 Joomla_1.7.5_DAN\
 \
-Prueba en txt para conocer como evoluciona el GITHUB.\
+2\'ba Prueba de GitHub.\
 \
-Aqu\'ed en este fichero podr\'e9 conocer como se realizan los cambios.\
+Aqu\'ed probamos como act\'faa GitHub en la creaci\'f3n de un segundo fichero.\
 \
-\
-GitHub}
+GitHub.}
